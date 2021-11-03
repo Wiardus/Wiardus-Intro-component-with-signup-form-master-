@@ -1,0 +1,91 @@
+body {
+  background-image: url("./images/bg-intro-desktop.png");
+  background-color: #ff7a7a;
+  font-family: "Poppins";
+  width: 1440px;
+}
+
+h1 {
+  color: white;
+  margin-top: 300px;
+  position: absolute;
+  margin-left: 250px;
+  font-size: 3.5em;
+}
+
+p {
+  color: white;
+}
+
+#subtitle {
+  margin-left: 250px;
+  margin-top: 500px;
+  position: absolute;
+}
+
+#tryBtn {
+  margin-top: 100px;
+  background: #6055a5;
+  width: 30%;
+  height: 50px;
+  border-radius: 3%;
+  margin-left: 64vw;
+  border-style: none;
+  color: white;
+  margin-bottom: 25px;
+  box-shadow: 0 6px 4px -2px grey;
+  cursor: pointer;
+}
+#tryBtn:hover {
+  opacity: 70%;
+}
+
+form {
+  position: relative;
+  box-sizing: border-box;
+  display: grid;
+  place-items: center;
+  background: white;
+  width: 30vw;
+  height: 30vw;
+  border-radius: 3%;
+  margin-left: 60vw;
+  box-shadow: 0 6px 4px -2px grey;
+}
+form input {
+  margin-top: 25px;
+  width: 80%;
+  height: 50%;
+  border-radius: 3%;
+  border-color: #b9b6d3;
+  border-style: solid;
+}
+form #firstNameError {
+  display: none;
+}
+form #claimBtn {
+  width: 80%;
+  height: 50px;
+  border-radius: 3%;
+  background: #38cc8c;
+  color: white;
+  border-style: none;
+  cursor: pointer;
+}
+form #claimBtn:hover {
+  opacity: 70%;
+}
+form #formFooter {
+  color: #b9b6d3;
+  text-align: left;
+}
+
+span {
+  color: #3e3c49;
+  cursor: pointer;
+}
+span:hover {
+  opacity: 75%;
+}
+
+/*# sourceMappingURL=styles.css.map */

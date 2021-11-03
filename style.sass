@@ -1,0 +1,93 @@
+$primary-red: hsl(0, 100%, 74%) 
+$primary-green: hsl(154, 59%, 51%)
+$main-font: 'Poppins'
+$dark-blue: hsl(249, 10%, 26%) 
+$greyish-blue: hsl(246, 25%, 77%)
+$blue: hsl(248, 32%, 49%)
+    
+body    
+    background-image: url('./images/bg-intro-desktop.png')
+    background-color: $primary-red
+    font-family: $main-font
+    width: 1440px
+
+h1 
+    color: white
+    margin-top: 300px
+    position: absolute
+    margin-left: 250px
+    font-size: 3.5em
+    
+    
+p 
+    color: white
+
+
+#subtitle 
+  margin-left: 250px
+  margin-top: 500px
+  position: absolute
+
+
+#tryBtn
+    margin-top: 100px
+    background: $blue
+    width: 30%
+    height: 50px
+    border-radius: 3%
+    margin-left: 64vw
+    border-style: none
+    color: white
+    margin-bottom: 25px
+    box-shadow: 0 6px 4px -2px grey
+    cursor: pointer
+
+    &:hover
+        opacity: 70%
+
+form 
+    position: relative
+    box-sizing: border-box
+    display: grid
+    place-items: center
+    background: white
+    width: 30vw
+    height: 30vw
+    border-radius: 3%
+    margin-left: 60vw
+    box-shadow: 0 6px 4px -2px grey
+
+    input 
+        margin-top: 25px
+        width: 80%
+        height: 50%
+        border-radius: 3%
+        border-color: hsl(246, 25%, 77%)
+        border-style: solid
+
+    #firstNameError
+        display: none
+      
+
+    #claimBtn
+        width: 80%
+        height: 50px
+        border-radius: 3%
+        background: $primary-green
+        color: white
+        border-style: none
+        cursor: pointer
+
+        &:hover
+            opacity: 70%
+
+    #formFooter 
+        color: $greyish-blue
+        text-align: left
+
+span 
+    color: $dark-blue
+    cursor: pointer
+    
+    &:hover
+        opacity: 75%
